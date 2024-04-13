@@ -12,7 +12,7 @@ import torch.multiprocessing as mp
 from transformers import AutoTokenizer
 from models import TextGraphMCModel_NEEG as TextGraphMCModel
 from neeg_dataset import GraphMCDataset, TextGraphCollator
-from mykits.torch.trainer import Trainer, Arguments, init_process_group
+from utils import Trainer, Arguments, init_process_group
 from aser_utils import ID2NTYPE_LM_STR
 
 model_collator_map = {

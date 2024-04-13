@@ -1,5 +1,7 @@
 import os
-from mykits.widgets.runstr_combinations import get_runstr_combinations
+import sys
+sys.path.append('..')
+from utils import get_runstr_combinations
 
 if __name__ == '__main__':
     header =  'python3 train.py'

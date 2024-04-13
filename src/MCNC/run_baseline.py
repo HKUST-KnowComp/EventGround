@@ -7,7 +7,7 @@ import torch
 import numpy as np
 
 from transformers import AutoTokenizer
-from mykits.torch.trainer import Trainer, Arguments
+from utils import Trainer, Arguments
 from aser_utils import ID2NTYPE_LM_STR
 from datasets import load_dataset
 
